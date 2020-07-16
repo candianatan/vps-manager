@@ -59,41 +59,41 @@ wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger
 cd /etc/
 mkdir ger-frm-mas\ opciones
 cd /etc/ger-frm-mas\ opciones
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/ADMbot.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/Crear-Demo.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/GENERADOR_BIN.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/Gestor.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/MasterBin.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/Proxy-Privado.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/Proxy-Publico.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/Unlock-Pass-VULTR.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/apacheon.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/blockBT.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/cambiopass.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/dados.py
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/dados.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/dns-netflix.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/fai2ban.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/hora.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/htop.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/insta_painel
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/nload.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/optimizar.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/panelweb.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/paysnd.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/payySND.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/permisos_passwd.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/ports.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/rootpass.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/speed.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/speedtest.py
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/squidpass.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/tcp.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/toolmaster.py
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/ultrahost
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/unddos.py
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/utils.sh
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/vnc
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/ADMbot.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/Crear-Demo.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/GENERADOR_BIN.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/Gestor.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/MasterBin.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/Proxy-Privado.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/Proxy-Publico.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/Unlock-Pass-VULTR.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/apacheon.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/blockBT.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/cambiopass.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/dados.py
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/dados.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/dns-netflix.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/fai2ban.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/hora.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/htop.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/insta_painel
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/nload.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/optimizar.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/panelweb.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/paysnd.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/payySND.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/permisos_passwd.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/ports.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/rootpass.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/speed.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/speedtest.py
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/squidpass.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/tcp.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/toolmaster.py
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/ultrahost
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/unddos.py
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/utils.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/vnc
 
 cd /usr/bin
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/adm
