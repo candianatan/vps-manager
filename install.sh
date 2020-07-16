@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /etc/
-mkdir ger-inst /etc
+mkdir ger-inst
 cd /etc/ger-inst
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-inst/C-SSR.sh
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-inst/PDirect.py
@@ -18,7 +18,7 @@ wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-inst/s
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-inst/v2ray.sh
 
 cd /etc/
-mkdir ger-frm /etc
+mkdir ger-frm
 cd /etc/ger-frm
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/ADMbot.sh
 #wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/Crear-Demo.sh
@@ -38,7 +38,7 @@ wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/ul
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/utils.sh
 
 cd /etc/
-mkdir newadm /etc
+mkdir newadm
 cd /etc/newadm
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/USRbloqueados
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/USRexpired
@@ -57,7 +57,7 @@ wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/usercodes
 
 cd /etc/
-mkdir ger-frm-mas\ opciones /etc
+mkdir ger-frm-mas\ opciones
 cd /etc/ger-frm-mas\ opciones
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/ADMbot.sh
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas opciones/Crear-Demo.sh
