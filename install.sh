@@ -1,6 +1,14 @@
 #!/bin/bash
 apt update -y
 apt upgrade -y
+
+cd /etc
+mkdir B-ADMuser
+cd B-ADMuser
+mkdir ADMuser
+cd ADMuser
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/B-ADMuser/ADMuser/error.txt
+
 cd /etc/
 mkdir ger-inst
 cd /etc/ger-inst
@@ -23,7 +31,7 @@ cd /etc/
 mkdir ger-frm
 cd /etc/ger-frm
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/ADMbot.sh
-#!wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/Crear-Demo.sh
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/Crear-Demo.sh
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/Unlock-Pass-VULTR.sh
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/apacheon.sh
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/blockBT.sh
