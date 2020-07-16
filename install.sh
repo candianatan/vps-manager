@@ -1,4 +1,6 @@
 #!/bin/bash
+apt update -y
+apt upgrade -y
 cd /etc/
 mkdir ger-inst
 cd /etc/ger-inst
@@ -36,25 +38,6 @@ wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/sq
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/tcp.sh
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/ultrahost
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm/utils.sh
-
-cd /etc/
-mkdir newadm
-cd /etc/newadm
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/USRbloqueados
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/USRexpired
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/USRonlines
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/idioma
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/key.txt
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/menu
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/message.txt
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/IDT.log
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/Limiter.log
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/Limiter2.log
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/SSH20.log
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/nombre.log
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/pid-adm
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/time-adm
-wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/usercodes
 
 cd /etc/
 mkdir ger-frm-mas\ opciones
@@ -95,14 +78,34 @@ wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-ma
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/utils.sh
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/ger-frm-mas%20opciones/vnc
 
+cd /etc/
+mkdir newadm
+cd /etc/newadm
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/USRbloqueados
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/USRexpired
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/USRonlines
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/idioma
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/key.txt
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/menu
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/message.txt
+
+mkdir ger-user
+cd ger-user
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/IDT.log
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/Limiter.log
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/Limiter2.log
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/SSH20.log
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/nombre.log
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/pid-adm
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/time-adm
+wget https://raw.githubusercontent.com/candianatan/vps-manager/master/newadm/ger-user/usercodes
+
 cd /usr/bin
 wget https://raw.githubusercontent.com/candianatan/vps-manager/master/adm
 
 
 #!wget https://raw.githubusercontent.com/candianatan/vps-manager/master/vps-manager.rar
 #!apt install unrar
-#!apt update -y
-#!apt upgrade -y
 apt install net-tools
 apt install bc
 chmod g+rwx /etc/newadm/ -R
