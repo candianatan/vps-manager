@@ -1,5 +1,5 @@
 #!/bin/bash
-#19/12/2019
+#19/05/2020
 clear
 #ACTULIZADOR
 #rm -rf instalscript.sh &>/dev/null
@@ -193,7 +193,7 @@ done
 msg -bar2
 unset selection
 while [[ ${selection} != @([1-8]) ]]; do
-echo -ne "\033[1;37m$(fun_trans "Selecione una Opcion"): " && read selection
+echo -ne "\033[1;37m$(fun_trans "Seleccione una Opcion"): " && read selection
 tput cuu1 && tput dl1
 done
 [[ -e /etc/texto-adm ]] && rm /etc/texto-adm
@@ -696,7 +696,7 @@ local selection="null"
 local range
 for((i=0; i<=$1; i++)); do range[$i]="$i "; done
 while [[ ! $(echo ${range[*]}|grep -w "$selection") ]]; do
-echo -ne "\033[1;37m$(fun_trans "Selecione una Opcion"): " >&2
+echo -ne "\033[1;37m$(fun_trans "Seleccione una Opcion"): " >&2
 read selection
 tput cuu1 >&2 && tput dl1 >&2
 done

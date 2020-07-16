@@ -1,5 +1,5 @@
 #!/bin/bash
-#19/12/2019
+#19/05/2020
 clear
 msg -bar
 myip=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0' | head -n1`;
@@ -362,7 +362,7 @@ if [[ -z ${usuarios_ativos[@]} ]]; then
 msg -verm "$(fun_trans "Ningun usuario registrado")"
 msg -bar
 else
-msg -ama "$(fun_trans "Usuarios Actualmente Activos En El Servidor")"
+msg -ama "$(fun_trans "Usuarios Actualmente Activos en el Servidor")"
 msg -bar
 for us in $(echo ${usuarios_ativos[@]}); do
 msg -ne "Usuario: " && echo "${us}"
