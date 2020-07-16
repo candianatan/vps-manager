@@ -1,6 +1,10 @@
 #!/bin/bash
 apt update -y
 apt upgrade -y
+apt install python -y
+apt install htop
+#!apt install nload
+
 
 cd /etc
 mkdir B-ADMuser
