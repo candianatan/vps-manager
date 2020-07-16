@@ -104,6 +104,7 @@ wget https://raw.githubusercontent.com/candianatan/vps-manager/master/adm
 #!apt update -y
 #!apt upgrade -y
 apt install net-tools
+apt install bc
 chmod g+rwx /etc/newadm/ -R
 chmod g+rwx /etc/ger-inst/ -R
 chmod g+rwx /etc/ger-frm -R
